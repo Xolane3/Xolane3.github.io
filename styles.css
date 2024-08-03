@@ -85,11 +85,6 @@ h2 {
   position: relative;
 }
 
-.skills .icons {
-  display: inline-block;
-  white-space: nowrap;
-  animation: scroll 20s linear infinite;
-}
 .skills .icons p{
   display: inline-block;
   white-space: nowrap;
