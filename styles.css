@@ -187,18 +187,18 @@ p a:after {
 p a {
   text-decoration: none;
   border: white solid 1px;
-  color: green;
+  color: white;
+  background-color: skyblue;
   transition: color 0.3s, background-color 0.3s;
 }
 
 p a:hover {
-  color: red;
-  background-color: black;
+  color: gray;
+  background-color: blue;
 }
 .projects-list li a {
   border: black solid 1px;
-  background-color: gray;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .projects-list li a:hover {
