@@ -88,15 +88,14 @@ h2 {
 .skills .icons p{
   display: inline-block;
   white-space: nowrap;
-  animation: scroll 20s linear infinite;
 
 }
 
 .skills p {
   height: 50px; /* Adjust the size of the icons */
-  margin: 0 15px; /* Add some spacing between icons */
+  margin: 0 15px;
   transition: transform 0.3s;
-  animation: blink 2s infinite; /* Add blinking animation */
+ 
 }
 
 .skills p:hover {
