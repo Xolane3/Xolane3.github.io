@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Open Sans' Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.6;
   margin: 0;
   padding: 0; 
@@ -186,12 +186,13 @@ p a:after {
 
 p a {
   text-decoration: none;
-  background-color: #555;
+  border: white solid 1px;
+  color: green;
   transition: color 0.3s, background-color 0.3s;
 }
 
 p a:hover {
-  color: green;
+  color: red;
   background-color: black;
 }
 .projects-list li a {
