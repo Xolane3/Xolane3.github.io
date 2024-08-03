@@ -91,15 +91,15 @@ h2 {
   animation: scroll 20s linear infinite;
 }
 
-.skills img {
+.skills p {
   height: 50px; /* Adjust the size of the icons */
   margin: 0 15px; /* Add some spacing between icons */
-  transition: transform 0.3s;
+  transition: transform 0.4s;
   animation: blink 2s infinite; /* Add blinking animation */
 }
 
-.skills img:hover {
-  transform: scale(1.2);
+.skills p:hover {
+  transform: scale(1.3);
 }
 
 @keyframes scroll {
@@ -187,14 +187,13 @@ p a:after {
 p a {
   text-decoration: none;
   border: white solid 1px;
-  color: white;
-  background-color: skyblue;
+  color: black;
+  background-color: yellow;
   transition: color 0.3s, background-color 0.3s;
 }
 
 p a:hover {
-  color: gray;
-  background-color: blue;
+  color: white;
 }
 .projects-list li a {
   border: black solid 1px;
