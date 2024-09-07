@@ -88,6 +88,10 @@ h2 {
 .skills .icons p{
   display: inline-block;
   white-space: nowrap;
+  word-wrap: break-word; /* Allows breaking within words to prevent overflow */
+  word-break: break-all; /* Breaks long words if needed */
+  white-space: normal; /* Allows text to wrap to the next line */
+  overflow-wrap: break-word;
 
 }
 
@@ -95,6 +99,10 @@ h2 {
   height: 50px; /* Adjust the size of the icons */
   margin: 0 15px;
   transition: transform 0.3s;
+  word-wrap: break-word; /* Allows breaking within words to prevent overflow */
+  word-break: break-all; /* Breaks long words if needed */
+  white-space: normal; /* Allows text to wrap to the next line */
+  overflow-wrap: break-word;
  
 }
 
